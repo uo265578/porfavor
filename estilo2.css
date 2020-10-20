@@ -1,11 +1,19 @@
-.grid-containerequipo {
+/* Selector Specifity(0, 1, 0) */
+.grid-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto ;
-  grid-gap: 1 rem;
-
-  grid-template-areas: 
-  "header"
-  "nav"
-  ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header header header"
+    "nav nav Introduccion Introduccion"
+    "trailer trailer Introduccion Introduccion";
 }
+/* Selector Specifity(0, 0, 1) */
+.header { grid-area: header; }
+/* Selector Specifity(0, 0, 1) */
+.nav { grid-area: nav; }
+/* Selector Specifity(0, 0, 1) */
+.Introduccion { grid-area: Introduccion; }
+/* Selector Specifity(0, 0, 1) */
+.trailer { grid-area: trailer; }
