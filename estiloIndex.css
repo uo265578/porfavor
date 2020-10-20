@@ -23,7 +23,7 @@ h2{
 }
 /* Selector Specifity(0, 0, 1) */
 html{
-  background-image: url("Multimedia/Portadas.jpg");
+  background-image: url("Multimedia/frodo.jpg");
   background-color: rgba(255,255,255,0.7);
 
 }
@@ -37,7 +37,7 @@ aside{
 nav{
   font-family:Verdana,serif;
   padding-right:6.25em;
-  padding-bottom: 1em;
+  padding-bottom: 0.25em;
 }
 /* Selector Specifity(0, 0, 1) */
 ul{
