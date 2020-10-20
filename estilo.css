@@ -1,3 +1,4 @@
+/* Selector Specifity(0, 0, 1) */
 body {
       font: 400 15px Tahoma, sans-serif;
       line-height: 1.8;
@@ -6,84 +7,105 @@ body {
       color: #000000;
       background-color: rgba(255,255,255,0.8);
      }
+/* Selector Specifity(0, 0, 1) */
 h1 {
       background-color: rgba(0,0,0,0.3);
       color: #000000;
       text-transform: uppercase;
       padding: 100px 0px;
-      text-align: center;     
+      text-align: center;    
   }
+/* Selector Specifity(0, 0, 1) */
   h2{
     font-weight: bolder;
     text-decoration: underline;
-    font: 900 Helvetica, serif;
+    font: 400 15px Tahoma, sans-serif;
     color: #000000;
   }
+/* Selector Specifity(0, 0, 1) */
   html{
     background-image: url("Multimedia/Portadas.jpg");
     background-color: rgba(255,255,255,0.7);
 
   }
+/* Selector Specifity(0, 0, 1) */
   aside{
     background-color:rgba(255,255,255,0.3);
     color: #ffffff;
     padding: 10px 10px 5px 5px;
   }
+/* Selector Specifity(0, 0, 1) */
  nav{
     font-family:Verdana,serif;
     float:left;
     padding-right:100px;
     padding-bottom: 4px;
   }
+/* Selector Specifity(0, 0, 1) */
   ul{
     border-width: 4px;
     border-radius: 40px;
     background-color: #000000;
   }
+/* Selector Specifity(0, 0, 1) */
   a{
     color:#ffffff;
   }
+/* Selector Specifity(0, 0, 1) */ 
+  div,p{
+      font: 400 20px Tahoma,sans-serif;
+}
+/* Selector Specifity(0, 0, 1) */ 
   video{
     width: 100%;
     height: 600px;
     object-fit: cover;
     z-index: -100;
   }
-  img{
+
+  img {
     float:right;  
     padding-left:10px;
     padding-bottom: 5px;
   }
+
+/* Selector Specifity(0, 0, 1) */
   footer{
     background-color: #FF5733;
 
   }
-  h3,h4,h5,h6{
+/* Selector Specifity(0, 0, 1) */
+  h3{
     font-weight: bolder;
     text-decoration: underline;
-    font: 700 Helvetica, serif;
+    font: 400 15px Tahoma, sans-serif;
     font-size: 21px;
     font-style:italic;
     color: #000000;
   }
+/* Selector Specifity(0, 0, 1) */
   main { 
     padding-top:40px;
     padding-left:5px;
   }
-
+/* Selector Specifity(0, 0, 1) */
 td:nth-child(1) {
     background-color: rgba(0,0,0,0.3);
     color:#000000;
     font-weight: 700;
 }
-td{
-  text-align: center;
-}
+/* Selector Specifity(0, 0, 1) */
 th{
   background-color: rgba(0,0,0,0.3);
   color:#000000;
   font-weight: 700;
 }
+
+td{
+  text-align: center;
+}
+
+/* Selector Specifity(0, 0, 1) */
 table{
   border: 4px solid black;
   align-content:center;
