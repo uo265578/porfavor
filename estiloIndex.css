@@ -13,6 +13,7 @@ h1 {
     color: #000000;
     text-transform: uppercase;
     padding: 6.25em 0em;
+    text-align: center;  
 }
 /* Selector Specifity(0, 0, 1) */
 h2{
@@ -29,15 +30,15 @@ html{
 }
 /* Selector Specifity(0, 0, 1) */
 aside{
-  background-color:rgba(255,255,255,0.3);
-  color: #ffffff;
-  padding: 0.625em 0.625em 0.313em 0.313em;
+background-color:rgba(255,255,255,0.3);
+color: #ffffff;
+padding: 0.625em 0.625em 0.313em 0.313em;
 }
 /* Selector Specifity(0, 0, 1) */
 nav{
-  font-family:Verdana,serif;
-  padding-right:6.25em;
-  padding-bottom: 0.25em;
+font-family:Verdana,serif;
+padding-right:6.25em;
+padding-bottom: 0.25em;
 }
 /* Selector Specifity(0, 0, 1) */
 ul{
@@ -49,6 +50,9 @@ ul{
 a{
   color:#ffffff;
 }
+b{
+    color:#000000;
+  }
 /* Selector Specifity(0, 0, 1) */ 
 div,p{
     font: 400 1.25em Tahoma,sans-serif;
