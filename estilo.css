@@ -62,7 +62,7 @@ h1 {
     object-fit: cover;
     z-index: -100;
   }
-
+/* Selector Specifity(0, 0, 1) */
   img {
     float:right;  
     padding-left:10px;
@@ -88,7 +88,7 @@ h1 {
     padding-top:40px;
     padding-left:5px;
   }
-/* Selector Specifity(0, 0, 1) */
+/* Selector Specifity(0, 1, 1) */
 td:nth-child(1) {
     background-color: rgba(0,0,0,0.3);
     color:#000000;
@@ -100,7 +100,7 @@ th{
   color:#000000;
   font-weight: 700;
 }
-
+/* Selector Specifity(0, 0, 1) */
 td{
   text-align: center;
 }
