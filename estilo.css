@@ -44,7 +44,7 @@ h1 {
 /* Selector Specifity(0, 0, 1) */
   ul{
     border-width: 0.25em;
-    border-radius: 2.5em;
+    border-radius: 1em;
     background-color: #000000;
   }
 /* Selector Specifity(0, 0, 1) */
