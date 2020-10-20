@@ -48,10 +48,11 @@ ul{
 }
 /* Selector Specifity(0, 0, 1) */
 a{
-  color:#ffffff;
+  color:#000000;
 }
-.enlace{
-    color:#000000;
+
+.navigation{
+    color:#ffffff;
   }
 /* Selector Specifity(0, 0, 1) */ 
 div,p{
